@@ -1,0 +1,372 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 300px; /* Margin bottom by footer height */    
+}
+
+h2{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 300px; /* Set the fixed height of the footer here */  
+}
+
+
+/* Custom page CSS
+ * Not required for template or sticky footer method.
+ * -------------------------------------------------- */
+.clearfix{
+    clear: both;
+}
+
+body > .container {
+  padding: 0px 15px 80px;
+}
+
+.distancia-menu{
+    padding-top: 150px !important;
+}
+
+.row p{
+    color: #000;    
+    font-size: 18px;
+    line-height: 180%;
+}
+
+p.p-home{
+    margin-top: 30px;
+}
+
+.img-home{
+    height: 600px;    
+    margin-top: 100px;
+    margin-bottom: 30px;
+    background-position: bottom;
+    background-image: url("../img/bg_home.jpg");
+}
+
+.texto-home{
+    font-size: 48px;
+    background-color: white;
+    margin-top: 200px;
+    padding: 30px;
+    max-width: 500px;
+    opacity: 0.7;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+img.logo{
+    width: 82px;
+    float: left;
+}
+
+span.logo{
+    color: black;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-left: 15px;    
+    display: inline-block;
+}
+
+footer ul li a, footer ul li a:hover{
+    color: black;
+    line-height: 35px;
+    text-decoration: none;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+footer img.logo{
+    float: none;
+    margin-top: 30px;
+}
+
+.navbar-default{
+    background-color: white;
+    height: 100px;
+}
+
+.navbar-default .navbar-nav{
+    margin-top: 25px;
+    float: right;
+}
+
+/* Smartphone */
+.navbar-header .navbar-toggle{
+    margin-top: 30px;
+}
+
+footer{
+    margin-top: 40px;    
+}
+
+footer .row{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 1px solid rgb(204, 204, 204);
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.footer-telefone{
+    background-color: rgb(250, 250, 250);
+    border-color: 1px solid rgb(205, 205, 205);
+    color: rgb(197, 197, 197);
+    font-size: 18px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.footer-telefone div{
+    width: 260px;
+    margin: auto;
+}
+
+.footer-telefone span{
+    color: rgb(70, 70, 70);
+    font-size: 32px;
+}
+
+footer .divisao{    
+    border-right: 1px solid rgb(204, 204, 204);
+    border-left: 1px solid rgb(204, 204, 204);
+}
+
+
+/* Página Contato */
+h1{
+    font-size: 48px;
+    text-align:center;
+    font-weight: bold;
+}
+
+.contato-destaque h3{
+    color: rgb(84, 84, 84);
+    font-weight: bold;
+}
+
+.contato-destaque p{
+    font-size: 36px;
+    
+}
+
+.contato-horario, .contato-horario h3, .contato-horario p{
+    font-size: 24px;
+}
+
+.contato-horario h3{
+    font-weight: bold;
+    color: black;
+}
+
+.contato-horario p{
+    color: rgb(120, 120, 120);
+}
+
+/* Página de Contato FORMULÁRIO */
+.container-form-contato{
+    font-size: 24px;
+    margin-top: 150px;
+}
+
+.container-form-contato textarea{
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(180, 180, 180);
+    border: 1px solid rgb(220, 220, 220);
+    background-color: rgb(246, 246, 246);
+}
+
+.container-form-contato textarea, .container-form-contato input[type=text], .container-form-contato input[type=email]{    
+    color: rgb(180, 180, 180);
+    border: 1px solid rgb(220, 220, 220);
+    background-color: rgb(246, 246, 246);
+}
+
+.container-form-contato input[type=text], .container-form-contato input[type=email]{
+    width: 264px;
+    padding: 10px;
+}
+
+.container-form-contato input[type=email]{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.container-form-contato input[type=submit]{
+    color: white;
+    padding: 10px 30px;
+    background-color: rgb(229, 181, 83);
+}
+
+/* Página Consultoria */
+.consultoria strong, .parceiros{
+    font-size: 20px;
+}
+
+.consultoria p{
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.ferramentas{    
+    height: 200px;
+    font-size: 14px;    
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Página Trabalhos */
+
+#botaoMenu{
+    cursor: pointer;
+}
+
+.sessoes{
+    font-size: 18px;    
+    margin-top: 0px;
+    margin-bottom: 20px;    
+}
+
+.sessoes a{
+    cursor: pointer;
+}
+
+.trabalhosTitulo h3, .sessoes{
+    margin-top: 40px;
+}
+
+.trabalhosTitulo a{
+    margin-right: 40px;    
+    text-decoration: none;
+    color: rgb(80, 80, 80);    
+}
+
+.trabalhosTitulo a:hover{    
+    color: rgb(120, 120, 120);
+}
+
+.trabalhosMenu img{
+    width: 32%;
+    float: left;
+    margin-right: 3px;
+}
+
+/* Página Trabalhos Comercial */
+.trabalhosComercial .trabalhosTitulo a, trabalhosResidencial .trabalhosTitulo a, .trabalhosPublico .trabalhosTitulo a{
+    margin-right: 0;
+}
+
+.trabalhosComercial .backImage, .trabalhosResidencial .backImage, .trabalhosPublico .backImage{
+    height: 300px;
+    width: 100%;    
+    background-color: gray;
+}
+
+.sessaoUm p{
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.sessaoDois h4{
+    color: rgb(80, 80, 80); 
+    margin-top: 20px;    
+}
+
+.sessaoDois .linha{    
+    border-bottom: 1px solid rgb(180, 180, 180);
+    margin-bottom: 15px
+}
+
+.sessaoDois i{
+    width: 30%;
+    float: left;
+    height: 200px;
+    margin-right: 1%;
+    background-color: gray;
+}
+
+
+
+/* Celular */
+@media (max-width: 768px){
+    .navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a:hover{
+        background-color: white;
+    }
+    
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+        border: none;
+    }
+    
+    .contato-destaque p{
+        font-size: 18px;
+    }
+ 
+    .container-form-contato input[type=text], .container-form-contato input[type=email]{
+        width: 100%;    
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .container-form-contato input[type=email]{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 992px){
+    .nav>li>a{
+        padding: 7px;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    
+    body{        
+        margin-bottom: 600px; /* Margin bottom by footer height */    
+    }
+
+    
+    footer{
+        height: 600px !important;
+    }
+    
+    .contato-destaque p{
+        font-size: 24px;
+    }
+    
+    .container-form-contato input[type=text], .container-form-contato input[type=email]{
+        width: 210px;    
+    }
+}
+
+
